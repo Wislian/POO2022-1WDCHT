@@ -77,4 +77,3 @@ double Sistema::sumarAreas() {
 
 }
 
-

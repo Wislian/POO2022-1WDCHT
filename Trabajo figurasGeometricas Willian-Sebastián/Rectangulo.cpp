@@ -35,3 +35,16 @@ double Rectangulo::calcularPerimetroFigura() {
     perimetro = 2(base)+2(altura);
     return perimetro;
 }
+/*
+double Rectangulo:: calcularAreaFigura(double base, double altura){
+    double resultado=0;
+    resultado = (base*altura);
+    std::cout <<resultado<<"area cuadrada";
+
+}
+double Rectangulo::calcularPerimetroFigura(double base, double altura){
+    double resultado=0;
+    resultado = (base*2)+(altura*2);
+    std::cout <<resultado<<"perimetro ";
+}
+ */
