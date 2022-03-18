@@ -10,6 +10,7 @@ class Circulo {
 
 private:
     double radio;
+    int id;
 public:
     Circulo();
     Circulo(double radio);

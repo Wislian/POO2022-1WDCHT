@@ -10,6 +10,7 @@ class Rectangulo {
 private:
     double altura;
     double base;
+    int id;
 
 public:
     Rectangulo();

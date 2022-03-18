@@ -9,6 +9,9 @@
 
 
 class FiguraGeometrica {
+protected:
+    double area;
+    double perimetro;
 
 public:
     virtual void dibujarFigura();

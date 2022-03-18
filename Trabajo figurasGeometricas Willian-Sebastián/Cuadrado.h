@@ -10,6 +10,7 @@ class Cuadrado {
     
 private:
     double lado;
+    int id;
 public:
     Cuadrado();
     Cuadrado(double lado);
