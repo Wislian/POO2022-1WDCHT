@@ -5,8 +5,10 @@
 #ifndef HERENCIA_Y_POLMORFISMO_CIRCULO_H
 #define HERENCIA_Y_POLMORFISMO_CIRCULO_H
 
+#include "FiguraGeometrica.h"
 
-class Circulo {
+
+class Circulo: public FiguraGeometrica{
 
 private:
     double radio;

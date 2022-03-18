@@ -5,8 +5,10 @@
 #ifndef HERENCIA_Y_POLMORFISMO_RECTANGULO_H
 #define HERENCIA_Y_POLMORFISMO_RECTANGULO_H
 
+#include "FiguraGeometrica.h"
 
-class Rectangulo {
+
+class Rectangulo : public FiguraGeometrica {
 private:
     double altura;
     double base;
@@ -15,8 +17,8 @@ public:
     Rectangulo();
     Rectangulo(double base, double altura);
     void dibujarFigura();
-    double calcularAreaFigura();
-    double calcularPerimetroFigura();
+    double calcularAreaFigura(double base, double altura);
+    double calcularPerimetroFigura(double base, double altura);
 
 };
 
