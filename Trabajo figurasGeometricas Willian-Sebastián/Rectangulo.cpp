@@ -1,5 +1,5 @@
 //
-// Created by sebas on 18/03/2022.
+// Created by Sebastián Gómez & Willian Chapid on 18/03/2022.
 //
 
 #include "Rectangulo.h"
@@ -9,7 +9,14 @@ Rectangulo::Rectangulo(double base, double altura){
     this-> base=base;
     this-> altura=altura;
 }
-void Rectangulo::dibujarFigura(){
+void Rectangulo::dibujarFigura(double base, double altura){
+    for (int i=0; i < altura; i++)
+    {
+        for (int j=0; j < base; j++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
 
 }
 double Rectangulo:: calcularAreaFigura(double base, double altura){

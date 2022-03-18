@@ -6,6 +6,9 @@
 #define HERENCIA_Y_POLMORFISMO_RECTANGULO_H
 
 #include "FiguraGeometrica.h"
+using std::cin;
+using std::cout;
+using std::endl;
 
 
 class Rectangulo : public FiguraGeometrica {
@@ -16,7 +19,7 @@ private:
 public:
     Rectangulo();
     Rectangulo(double base, double altura);
-    void dibujarFigura();
+    void dibujarFigura(double base, double altura);
     double calcularAreaFigura(double base, double altura);
     double calcularPerimetroFigura(double base, double altura);
 
