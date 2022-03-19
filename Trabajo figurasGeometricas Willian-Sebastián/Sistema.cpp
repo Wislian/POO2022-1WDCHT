@@ -67,7 +67,7 @@ void Sistema::dibujarFiguras() {
 void Sistema::mostrarPerimetros() {
     cout << "Mostrar perimetros de cada figura\n";
     for( int i = 0; i < figurasGeometricas.size(); i++ ){
-        figurasGeometricas[i]->mostrarPerimetros();//REVISAR
+        figurasGeometricas[i]->getPerimetro();//REVISAR
     }
 
 }

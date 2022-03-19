@@ -10,6 +10,8 @@ Cuadrado::Cuadrado() {
 
 Cuadrado::Cuadrado(double lado) {
     this -> lado = lado;
+    this -> area = calcularAreaFigura( lado );
+    this -> perimetro = calcularPerimetroFigura( lado );
     id = 1;
 }
 

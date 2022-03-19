@@ -17,7 +17,7 @@ protected:
 
 public:
     virtual void dibujarFigura();
-    virtual void mostrarPerimetros();
+    virtual void getPerimetro();
     virtual double calcularAreaFigura();
     virtual double calcularPerimetroFigura();
 

@@ -10,6 +10,8 @@ Circulo::Circulo() {
 
 Circulo::Circulo(double radio) {
     this -> radio = radio;
+    this -> area = calcularAreaFigura( radio );
+    this -> perimetro = calcularPerimetroFigura( radio );
     id = 3;
 }
 
@@ -25,7 +27,7 @@ void Circulo:: dibujarFigura(double radio){
         cout<<"\n";
     }
 }
-double Circulo:: calcularAreaFigura(double radio){
+double Circulo::calcularAreaFigura(double radio){
     double resultado=0;
     resultado=M_PI* pow(radio,2);
     return resultado;

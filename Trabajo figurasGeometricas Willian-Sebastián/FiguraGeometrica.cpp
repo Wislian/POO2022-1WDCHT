@@ -3,3 +3,20 @@
 //
 
 #include "FiguraGeometrica.h"
+
+
+double FiguraGeometrica::calcularPerimetroFigura() {
+
+}
+
+double FiguraGeometrica::calcularAreaFigura() {
+
+}
+
+void FiguraGeometrica::dibujarFigura() {
+
+}
+
+void FiguraGeometrica::mostrarPerimetros() {
+
+}

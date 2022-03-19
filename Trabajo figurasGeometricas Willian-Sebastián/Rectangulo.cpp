@@ -11,6 +11,8 @@ Rectangulo::Rectangulo() {
 Rectangulo::Rectangulo(double base, double altura) {
     this -> base = base;
     this -> altura  = altura;
+    this -> area = calcularAreaFigura( base, altura );
+    this -> perimetro = calcularPerimetroFigura( base, altura );
     id = 2;
 }
 
