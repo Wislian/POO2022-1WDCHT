@@ -8,7 +8,8 @@
 #include "FiguraGeometrica.h"
 
 
-class Circulo: public FiguraGeometrica{
+class Circulo: public FiguraGeometrica
+        {
 
 private:
     double radio;
@@ -16,7 +17,7 @@ private:
 public:
     Circulo();
     Circulo(double radio);
-    void dibujarFigura();
+    void dibujarFigura(double radio);
     double calcularAreaFigura(double radio);
     double calcularPerimetroFigura(double radio);
 

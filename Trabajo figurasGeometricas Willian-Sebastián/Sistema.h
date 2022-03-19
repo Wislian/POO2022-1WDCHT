@@ -9,14 +9,16 @@
 #include <iostream>
 #include <vector>
 
+
+
 using std::cin;
 using std::cout;
-using std::endl;
+
 using std::vector;
 
 class Sistema{
 private:
-    vector<FiguraGeometrica*> figurasGeometricas;
+    //vector<FiguraGeometrica *> figurasGeometricas;
 public:
     Sistema();
     void agregarFigura();

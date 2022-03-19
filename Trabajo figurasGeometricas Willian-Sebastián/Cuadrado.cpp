@@ -13,25 +13,25 @@ Cuadrado::Cuadrado(double lado) {
     id = 1;
 }
 
-void Cuadrado::dibujarFigura() {
-    for( i = 1; i <= lado; i++ ){
-        for(j = 1; j <= lado; j++ ) {
+void Cuadrado::dibujarFigura(double lado) {
+    for( int i = 1; i <= lado; i++ ){
+        for(int j = 1; j <= lado; j++ ) {
             cout << "*";
         }
-        cout "\n";
+        cout<<"\n";
     }
 
 }
 
-double Cuadrado::calcularAreaFigura() {
+double Cuadrado::calcularAreaFigura(double lado) {
     double area;
     area = lado*lado;
     return area;
 }
 
-double Cuadrado::calcularPerimetroFigura() {
+double Cuadrado::calcularPerimetroFigura(double lado) {
     double perimetro;
-    perimetro = 4(lado);
+    perimetro = 4*(lado);
     return perimetro;
 }
 /*

@@ -7,6 +7,8 @@
 
 #include <iostream>
 
+#include "Sistema.h"
+
 
 class FiguraGeometrica {
 protected:
@@ -15,6 +17,7 @@ protected:
 
 public:
     virtual void dibujarFigura();
+    virtual void mostrarPerimetros();
     virtual double calcularAreaFigura();
     virtual double calcularPerimetroFigura();
 

@@ -14,25 +14,27 @@ Rectangulo::Rectangulo(double base, double altura) {
     id = 2;
 }
 
-void Rectangulo::dibujarFigura() {
-    for( i = 1; i <= altura; i++ ){
-        for(j = 1; j <= base; j++ ) {
+void Rectangulo::dibujarFigura(double base, double altura) {
+    for (int i = 1; i <= altura; i++) {
+        for (int j = 1; j <= base; j++) {
             cout << "*";
         }
-        cout "\n";
+        cout << "\n";
+    }
+}
+
+    double Rectangulo::calcularAreaFigura(double base, double altura) {
+        double area;
+        area = (base * altura);
+        return area;
     }
 
-double Rectangulo::calcularAreaFigura() {
-    double area;
-    area = base*altura;
-    return area;
-}
+    double Rectangulo::calcularPerimetroFigura(double base, double altura) {
+        double perimetro;
+        perimetro = (2 * base) + (2 * altura);
+        return perimetro;
+    }
 
-double Rectangulo::calcularPerimetroFigura() {
-    double perimetro;
-    perimetro = 2(base)+2(altura);
-    return perimetro;
-}
 /*
 double Rectangulo:: calcularAreaFigura(double base, double altura){
     double resultado=0;

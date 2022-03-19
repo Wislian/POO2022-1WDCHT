@@ -11,7 +11,8 @@ using std::cout;
 using std::endl;
 
 
-class Rectangulo : public FiguraGeometrica {
+class Rectangulo : public FiguraGeometrica
+        {
 private:
     double altura;
     double base;

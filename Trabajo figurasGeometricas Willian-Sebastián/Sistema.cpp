@@ -3,7 +3,11 @@
 //
 
 #include "Sistema.h"
+#include "Cuadrado.h"
+#include "Rectangulo.h"
+#include "Circulo.h"
 
+vector<FiguraGeometrica *> figurasGeometricas;
 
 Sistema::Sistema(){
 
@@ -13,7 +17,7 @@ void Sistema::agregarFigura() {
     int opc;
     do{
     cout<<"Digite tipo de figura\n"
-    <<"(1)Cuadrado, (2)rectangulo, (3)circulo\n");
+    <<"(1)Cuadrado, (2)rectangulo, (3)circulo\n";
     cin >> opc;
     }while(opc != 1 && opc !=2 && opc != 3 );
     switch (opc) {
@@ -32,7 +36,7 @@ void Sistema::agregarFigura() {
                 cout << "Digite valor de la base\n";
                 cin >> base;
                 cout << "Digite valor de la altura\n";
-                cout >> altura;
+                cin >> altura;
             }while(base <= 0 && altura <=0 );
             figurasGeometricas.push_back( new Rectangulo( base, altura ) );
             cout << "Figura creada\n";
@@ -43,7 +47,7 @@ void Sistema::agregarFigura() {
                 cout << "CIRCULO\n";
                 cout << "Digite valor del radio\n";
                 cin >> radio;
-            }(while radio <= 0 );
+            }while (radio <= 0) ;
             figurasGeometricas.push_back( new Circulo( radio ) );
             cout << "Figura creada\n";
             break;
@@ -63,7 +67,7 @@ void Sistema::dibujarFiguras() {
 void Sistema::mostrarPerimetros() {
     cout << "Mostrar perimetros de cada figura\n";
     for( int i = 0; i < figurasGeometricas.size(); i++ ){
-        figurasGeometricas[i]->mostrarPerimetro();
+        figurasGeometricas[i]->mostrarPerimetros();//REVISAR
     }
 
 }
@@ -71,9 +75,10 @@ void Sistema::mostrarPerimetros() {
 double Sistema::sumarAreas() {
     double sumaAreas = 0;
     for( int i = 0; i < figurasGeometricas.size(); i++ ){
-        sumaAreas += figurasGeometricas[i]->area;//getarea();
+        sumaAreas += figurasGeometricas[i]-> area;//getarea();
     }
      cout << "La suma de todas las areas es: " << sumaAreas << "m^2\n";
+    return sumaAreas;
 
 }
 

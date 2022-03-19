@@ -7,12 +7,15 @@
 
 #include "FiguraGeometrica.h"
 #include <math.h>
+#include <vector>
+
 using std::cin;
 using std::cout;
 using std::endl;
 using std::vector;
 
-class Cuadrado : public FiguraGeometrica {
+class Cuadrado : public FiguraGeometrica
+        {
 
 private:
     double lado;
