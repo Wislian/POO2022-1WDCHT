@@ -4,6 +4,15 @@
 #include <math.h>
 #include "Circulo.h"
 
+Circulo::Circulo() {
+
+}
+
+Circulo::Circulo(double radio) {
+    this -> radio = radio;
+    id = 3;
+}
+
 void Circulo:: dibujarFigura(){
 
 }
