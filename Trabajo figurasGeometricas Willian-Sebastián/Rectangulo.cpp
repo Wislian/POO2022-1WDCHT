@@ -1,5 +1,5 @@
 //
-// Created by sebas on 18/03/2022.
+// Created by Sebastián Gómez & Willian Chapid on 18/03/2022.
 //
 
 #include "Rectangulo.h"
@@ -22,8 +22,6 @@ void Rectangulo::dibujarFigura() {
         cout "\n";
     }
 
-}
-
 double Rectangulo::calcularAreaFigura() {
     double area;
     area = base*altura;
@@ -42,6 +40,15 @@ double Rectangulo:: calcularAreaFigura(double base, double altura){
     std::cout <<resultado<<"area cuadrada";
 
 }
+ void Rectangulo::dibujarFigura(double base, double altura){
+    for (int i=0; i < altura; i++)
+    {
+        for (int j=0; j < base; j++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+
 double Rectangulo::calcularPerimetroFigura(double base, double altura){
     double resultado=0;
     resultado = (base*2)+(altura*2);

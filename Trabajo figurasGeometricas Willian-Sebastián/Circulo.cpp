@@ -1,31 +1,20 @@
 //
 // Created by sebas on 18/03/2022.
 //
-
+#include <math.h>
 #include "Circulo.h"
 
-Circulo::Circulo() {
-    //id = 3;
-}
-
-Circulo::Circulo(double radio) {
-    this -> radio = radio;
-    id = 3;
-}
-
-void Circulo::dibujarFigura() {
-
+void Circulo:: dibujarFigura(){
 
 }
+double Circulo:: calcularAreaFigura(double radio){
+    double resultado=0;
+    resultado=M_PI* pow(radio,2);
+    return resultado;
 
-double Circulo::calcularAreaFigura() {
-    double area;
-    area = radio*(3.1416);//buscar libreria de math o parecidos
-    return area;
 }
-
-double Circulo::calcularPerimetroFigura() {
-    double perimetro;
-    perimetro = 2*(3.1416)*r;
-    return perimetro;
+double Circulo::calcularPerimetroFigura(double radio){
+    double resultado=0;
+    resultado = 2*M_PI*radio;
+    return resultado;
 }
