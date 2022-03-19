@@ -5,7 +5,8 @@
 #include "FiguraGeometrica.h"
 
 
-double FiguraGeometrica::calcularPerimetroFigura() {
+
+/*double FiguraGeometrica::calcularPerimetroFigura() {
 
 }
 
@@ -15,8 +16,21 @@ double FiguraGeometrica::calcularAreaFigura() {
 
 void FiguraGeometrica::dibujarFigura() {
 
+}*/
+
+int FiguraGeometrica::getId() {
+    return this->id;
 }
 
-void FiguraGeometrica::mostrarPerimetros() {
+double FiguraGeometrica::getPerimetro() {
+    return this->perimetro;
+}
+
+double  FiguraGeometrica:: getArea(){
+    return this->area;
 
 }
+
+/*void FiguraGeometrica::mostrarPerimetros() {
+
+}*/

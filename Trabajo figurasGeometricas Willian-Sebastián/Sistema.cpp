@@ -69,13 +69,12 @@ void Sistema::mostrarPerimetros() {
     for( int i = 0; i < figurasGeometricas.size(); i++ ){
         figurasGeometricas[i]->getPerimetro();//REVISAR
     }
-
 }
 
 double Sistema::sumarAreas() {
     double sumaAreas = 0;
     for( int i = 0; i < figurasGeometricas.size(); i++ ){
-        sumaAreas += figurasGeometricas[i]-> area;//getarea();
+        sumaAreas += figurasGeometricas[i]->getArea();
     }
      cout << "La suma de todas las areas es: " << sumaAreas << "m^2\n";
     return sumaAreas;

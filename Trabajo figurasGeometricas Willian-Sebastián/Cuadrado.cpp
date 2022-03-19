@@ -36,6 +36,19 @@ double Cuadrado::calcularPerimetroFigura(double lado) {
     perimetro = 4*(lado);
     return perimetro;
 }
+
+double Cuadrado::getPerimetro(){
+    return this->perimetro;
+
+}
+double Cuadrado::getArea(){
+    return this->area;
+
+}
+int Cuadrado::getId(){
+    return this->id;
+
+}
 /*
 
 void Cuadrado::dibujarFigura(double lado) {

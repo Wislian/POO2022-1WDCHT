@@ -25,17 +25,27 @@ void Rectangulo::dibujarFigura(double base, double altura) {
     }
 }
 
-    double Rectangulo::calcularAreaFigura(double base, double altura) {
+double Rectangulo::calcularAreaFigura(double base, double altura) {
         double area;
         area = (base * altura);
         return area;
-    }
+}
 
-    double Rectangulo::calcularPerimetroFigura(double base, double altura) {
+double Rectangulo::calcularPerimetroFigura(double base, double altura) {
         double perimetro;
         perimetro = (2 * base) + (2 * altura);
         return perimetro;
-    }
+}
+
+double Rectangulo::getPerimetro(){
+    return this->perimetro;
+}
+double Rectangulo::getArea(){
+    return this->area;
+}
+int Rectangulo::getId(){
+    return this->id;
+}
 
 /*
 double Rectangulo:: calcularAreaFigura(double base, double altura){

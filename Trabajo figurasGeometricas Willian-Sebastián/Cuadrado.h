@@ -26,6 +26,9 @@ public:
     void dibujarFigura(double lado);
     double calcularAreaFigura(double lado);
     double calcularPerimetroFigura(double lado);
+    double getPerimetro();
+    double getArea();
+    int getId();
 
 };
 

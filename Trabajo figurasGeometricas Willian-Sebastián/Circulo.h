@@ -6,6 +6,7 @@
 #define HERENCIA_Y_POLMORFISMO_CIRCULO_H
 
 #include "FiguraGeometrica.h"
+using std::cout;
 
 
 class Circulo: public FiguraGeometrica
@@ -20,6 +21,9 @@ public:
     void dibujarFigura(double radio);
     double calcularAreaFigura(double radio);
     double calcularPerimetroFigura(double radio);
+    double getPerimetro();
+    double getArea();
+    int getId();
 
 };
 

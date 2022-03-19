@@ -4,6 +4,8 @@
 #include <math.h>
 #include "Circulo.h"
 
+
+
 Circulo::Circulo() {
 
 }
@@ -37,4 +39,17 @@ double Circulo::calcularPerimetroFigura(double radio){
     double resultado=0;
     resultado = 2*M_PI*radio;
     return resultado;
+}
+
+double Circulo::getPerimetro(){
+    return this->perimetro;
+
+}
+double Circulo::getArea(){
+    return this->area;
+
+}
+int Circulo::getId(){
+    return this->id;
+
 }

@@ -24,6 +24,9 @@ public:
     void dibujarFigura(double base, double altura);
     double calcularAreaFigura(double base, double altura);
     double calcularPerimetroFigura(double base, double altura);
+    double getPerimetro();
+    double getArea();
+    int getId();
 
 };
 
