@@ -17,7 +17,7 @@ void Sistema::agregarFigura() {
     int opc;
     do{
     cout<<"Digite tipo de figura\n"
-    <<"(1)Cuadrado, (2)rectangulo, (3)circulo\n";
+    <<"(1)Cuadrado, (2)Rectangulo, (3)circulo\n";
     cin >> opc;
     }while(opc != 1 && opc !=2 && opc != 3 );
     switch (opc) {
@@ -56,18 +56,44 @@ void Sistema::agregarFigura() {
     }
 }
 
+void Sistema::mostrarNombreFigura(int i){
+    if( figurasGeometricas[i]->getId() == 1 ) {
+        cout << "Cuadrado\n";
+    }else if(figurasGeometricas[i]->getId() == 2 ){
+        cout << "Rectangulo\n";
+    }else{
+        cout << "Circulo\n";
+    }
+}
+
 void Sistema::dibujarFiguras() {
     cout << "Dibujar figuras\n";
     for( int i = 0; i < figurasGeometricas.size(); i++ ){
+        cout<< "Figura "<<i+1<<" -";
+        mostrarNombreFigura(i);
         figurasGeometricas[i]->dibujarFigura();
+        cout<<endl;
     }
 
 }
 
+
 void Sistema::mostrarPerimetros() {
+    int id;
     cout << "Mostrar perimetros de cada figura\n";
     for( int i = 0; i < figurasGeometricas.size(); i++ ){
-        figurasGeometricas[i]->getPerimetro();//REVISAR
+        cout << "Figura #" << i+1 <<" - ";
+        mostrarNombreFigura(i);
+        cout << figurasGeometricas[i]->getPerimetro()<<" m\n\n";
+    }
+}
+
+void Sistema::mostrarAreas() {
+    cout << "Mostrar area de cada figura\n";
+    for( int i = 0; i < figurasGeometricas.size(); i++ ){
+        cout << "Figura #" << i+1 <<" - ";
+        mostrarNombreFigura(i);
+        cout << figurasGeometricas[i]->getArea()<<" m^2\n\n";
     }
 }
 
@@ -78,6 +104,5 @@ double Sistema::sumarAreas() {
     }
      cout << "La suma de todas las areas es: " << sumaAreas << "m^2\n";
     return sumaAreas;
-
 }
 

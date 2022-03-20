@@ -16,9 +16,9 @@ Rectangulo::Rectangulo(double base, double altura) {
     id = 2;
 }
 
-void Rectangulo::dibujarFigura(double base, double altura) {
-    for (int i = 1; i <= altura; i++) {
-        for (int j = 1; j <= base; j++) {
+void Rectangulo::dibujarFigura() {
+    for (int i = 1; i <= this->altura; i++) {
+        for (int j = 1; j <= this->base; j++) {
             cout << "*";
         }
         cout << "\n";
@@ -47,25 +47,5 @@ int Rectangulo::getId(){
     return this->id;
 }
 
-/*
-double Rectangulo:: calcularAreaFigura(double base, double altura){
-    double resultado=0;
-    resultado = (base*altura);
-    std::cout <<resultado<<"area cuadrada";
 
-}
- void Rectangulo::dibujarFigura(double base, double altura){
-    for (int i=0; i < altura; i++)
-    {
-        for (int j=0; j < base; j++) {
-            cout << "*";
-        }
-        cout << endl;
-    }
 
-double Rectangulo::calcularPerimetroFigura(double base, double altura){
-    double resultado=0;
-    resultado = (base*2)+(altura*2);
-    std::cout <<resultado<<"perimetro ";
-}
- */

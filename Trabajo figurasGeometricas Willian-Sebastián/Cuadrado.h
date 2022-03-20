@@ -23,7 +23,7 @@ private:
 public:
     Cuadrado();
     Cuadrado(double lado);
-    void dibujarFigura(double lado);
+    void dibujarFigura();
     double calcularAreaFigura(double lado);
     double calcularPerimetroFigura(double lado);
     double getPerimetro();

@@ -18,7 +18,7 @@ private:
 public:
     Circulo();
     Circulo(double radio);
-    void dibujarFigura(double radio);
+    void dibujarFigura();
     double calcularAreaFigura(double radio);
     double calcularPerimetroFigura(double radio);
     double getPerimetro();

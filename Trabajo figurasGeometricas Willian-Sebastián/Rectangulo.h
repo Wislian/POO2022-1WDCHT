@@ -21,7 +21,7 @@ private:
 public:
     Rectangulo();
     Rectangulo(double base, double altura);
-    void dibujarFigura(double base, double altura);
+    void dibujarFigura();
     double calcularAreaFigura(double base, double altura);
     double calcularPerimetroFigura(double base, double altura);
     double getPerimetro();

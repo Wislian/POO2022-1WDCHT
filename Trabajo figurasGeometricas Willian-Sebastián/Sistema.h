@@ -22,8 +22,10 @@ public:
     Sistema();
     void agregarFigura();
     void mostrarPerimetros();
+    void mostrarAreas();
     double sumarAreas();
     void dibujarFiguras();
+    void mostrarNombreFigura(int i );
 
 };
 

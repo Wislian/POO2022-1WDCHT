@@ -17,8 +17,9 @@ Circulo::Circulo(double radio) {
     id = 3;
 }
 
-void Circulo:: dibujarFigura(double radio){
-    for(int i=0; i<=radio * 2; i++){
+void Circulo:: dibujarFigura(){
+    double radio = this->radio;
+    for(int i=0; i<= radio * 2; i++){
         for (int j=0; j<= radio * 2; j++){
             if(pow((i-radio),2)+pow((j-radio),2)<= pow(radio,2) ) {
                 cout << "*";
@@ -51,5 +52,4 @@ double Circulo::getArea(){
 }
 int Circulo::getId(){
     return this->id;
-
 }

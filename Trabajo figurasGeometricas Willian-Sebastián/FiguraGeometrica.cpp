@@ -6,7 +6,7 @@
 
 
 
-/*double FiguraGeometrica::calcularPerimetroFigura() {
+double FiguraGeometrica::calcularPerimetroFigura() {
 
 }
 
@@ -16,7 +16,7 @@ double FiguraGeometrica::calcularAreaFigura() {
 
 void FiguraGeometrica::dibujarFigura() {
 
-}*/
+}
 
 int FiguraGeometrica::getId() {
     return this->id;
