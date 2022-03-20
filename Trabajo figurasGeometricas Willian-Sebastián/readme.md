@@ -8,9 +8,6 @@
 
 <ul>
 <li>Dibujar una representación de la figura geométrica en pantalla ( puede hacerlo por ejemplo usando *. Puede simplemente imprimir una cadena con la figura correcta)
-
-<li>Calcular el área de la figura geométrica
-
 <li>Calcular el área de la figura geométrica
 <li>Calcular el perímetro de la figura geométrica
 </ul>
