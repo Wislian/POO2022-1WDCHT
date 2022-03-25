@@ -20,6 +20,7 @@ private:
 
 public:
     Rectangulo();
+    ~Rectangulo();
     Rectangulo(double base, double altura);
     void dibujarFigura();
     double calcularAreaFigura(double base, double altura);

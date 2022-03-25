@@ -20,6 +20,7 @@ private:
     //vector<FiguraGeometrica *> figurasGeometricas;
 public:
     Sistema();
+    ~Sistema();
     void agregarFigura();
     void mostrarPerimetros();
     void mostrarAreas();

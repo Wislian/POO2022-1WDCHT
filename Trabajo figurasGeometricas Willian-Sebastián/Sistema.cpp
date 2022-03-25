@@ -106,3 +106,11 @@ double Sistema::sumarAreas() {
     return sumaAreas;
 }
 
+Sistema::~Sistema() {
+    for( int i = 0; i< figurasGeometricas.size(); i++ ){
+        FiguraGeometrica tempFigura = figurasGeometricas[i];
+        delete tempFigura;
+    }
+     cout << "destructor se inicio\n";
+}
+

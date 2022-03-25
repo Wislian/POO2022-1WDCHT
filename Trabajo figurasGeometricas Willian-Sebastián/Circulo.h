@@ -17,6 +17,7 @@ private:
     int id;
 public:
     Circulo();
+    ~Circulo();
     Circulo(double radio);
     void dibujarFigura();
     double calcularAreaFigura(double radio);

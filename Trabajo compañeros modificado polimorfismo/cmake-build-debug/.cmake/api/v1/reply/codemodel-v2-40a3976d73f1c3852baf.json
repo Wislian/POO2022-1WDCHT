@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Ejercicio_Polimorfismo",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio_Polimorfismo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio_Polimorfismo-Debug-fa5b1fbc9f90e3322f78.json",
+					"name" : "Ejercicio_Polimorfismo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/repositorio Lucho/POO-2022-1/Actividad Herencia/Ejercicio-Polimorfismo/cmake-build-debug",
+		"source" : "E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/repositorio Lucho/POO-2022-1/Actividad Herencia/Ejercicio-Polimorfismo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -22,6 +22,7 @@ private:
     int id;
 public:
     Cuadrado();
+    ~Cuadrado();
     Cuadrado(double lado);
     void dibujarFigura();
     double calcularAreaFigura(double lado);
