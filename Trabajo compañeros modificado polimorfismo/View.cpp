@@ -26,6 +26,13 @@ void View::agregarCirculo() {
     vectorFiguras.push_back(new Circulo(tempCirculo));
 }
 
+void View::agregarTrianguloRectangulo() {
+    float tamano = 0;
+    cout << "Ingrese el tamano del triangulo rectangulo: ";
+    cin >> tamano;
+    TrianguloRectangulo tempTrianguloRectangulo(tamano);
+    vectorFiguras.push_back(new TrianguloRectangulo(tempTrianguloRectangulo));
+}
 void View::agregarFigura(){
     int opcion = 0;
     do{
@@ -33,6 +40,7 @@ void View::agregarFigura(){
         cout << "1. Cuadrado\n";
         cout << "2. Rectangulo\n";
         cout << "3. Circulo\n";
+        cout << "4. Triangulo rectangulo\n";
         cout << "0. Salir\n";
         cin >> opcion;
         switch (opcion) {
@@ -45,6 +53,9 @@ void View::agregarFigura(){
             case 3:
                 agregarCirculo();
                 break;
+            case 4:
+                agregarTrianguloRectangulo();
+                break;
             default:
                 break;
         }
@@ -52,10 +63,12 @@ void View::agregarFigura(){
 }
 
 void View::combinarReferencias(){
-    FiguraGeometrica figuraGeometricaObj;
+    //FiguraGeometrica &figuraGeometricaObj;
     Cuadrado cuadradObj;
     Rectangulo rectangulObj;
     Circulo circulObj;
+    TrianguloRectangulo TrianguloRectObj;
+
 }
 
 void View::probarPolimorfismo() {

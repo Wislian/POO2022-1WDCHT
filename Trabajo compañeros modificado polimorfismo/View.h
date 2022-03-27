@@ -6,6 +6,7 @@
 #include "Circulo.h"
 #include "Cuadrado.h"
 #include "Rectangulo.h"
+#include "TrianguloRectangulo.h"
 #include <iostream>
 #include <vector>
 
@@ -24,6 +25,7 @@ class View{
         void agregarCuadrado();
         void agregarRectangulo();
         void agregarCirculo();
+        void agregarTrianguloRectangulo();
         void mostrarFigurasConColores();
 };
 #endif

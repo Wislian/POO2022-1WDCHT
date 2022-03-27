@@ -22,8 +22,8 @@ public:
     TrianguloRectangulo( float lado );
     float averiguarPerimetro();
     float averiguarArea();
-    void dibujarFigura(int i);
-    void dibujarFigura( int color, double tamano);
+    void dibujarFigura();
+    void dibujarFigura(int color);
     void nombreFigura();
 };
 #endif //EJERCICIO_POLIMORFISMO_TRIANGULORECTANGULO_H

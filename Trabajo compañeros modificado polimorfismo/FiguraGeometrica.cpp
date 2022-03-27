@@ -9,10 +9,12 @@ FiguraGeometrica::FiguraGeometrica()
 
 float FiguraGeometrica::averiguarPerimetro(){
 
+    return 0;
 }
 
 float FiguraGeometrica::averiguarArea() {
 
+    return 0;
 }
 
 void FiguraGeometrica::dibujarFigura() {

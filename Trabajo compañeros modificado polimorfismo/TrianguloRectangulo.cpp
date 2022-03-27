@@ -11,8 +11,8 @@ TrianguloRectangulo::TrianguloRectangulo(float lado) {
     this->lado = lado;
 }
 
-void TrianguloRectangulo::dibujarFigura(int i) {
-    int cont1 = 1, cont2 = 1;
+void TrianguloRectangulo::dibujarFigura() {
+    int cont2 = 1;
     for( int j = 1; cont2 <= this->lado; j++ ) {
         for (int i = 1; i <= cont2; i++) {
             cout << "*";
@@ -37,11 +37,10 @@ float TrianguloRectangulo::averiguarPerimetro() {
 void TrianguloRectangulo::nombreFigura() {
     cout << "TrianguloRectangulo\n";
 }
-void TrianguloRectangulo::dibujarFigura(int color, double tamano) {
+void TrianguloRectangulo::dibujarFigura(int color) {
     SetConsoleTextAttribute (GetStdHandle (STD_OUTPUT_HANDLE),color);
-    for(int line = 1 ; line <= tamano ; line ++)
+    for(int line = 1 ; line <= lado ; line ++)
     {
-        cout << line << ")\t";
         for(int col = 1 ; col <= line ; col++){
             cout << "*";
         }
