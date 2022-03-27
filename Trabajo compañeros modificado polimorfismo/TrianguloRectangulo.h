@@ -9,6 +9,7 @@
 #include <iostream>
 #include <iomanip>
 #include <cmath>
+#include <windows.h>
 
 using std::cout;
 using std::pow;
@@ -22,7 +23,7 @@ public:
     float averiguarPerimetro();
     float averiguarArea();
     void dibujarFigura(int i);
-    void dibujarFigura( int color );
+    void dibujarFigura( int color, double tamano);
     void nombreFigura();
 };
 #endif //EJERCICIO_POLIMORFISMO_TRIANGULORECTANGULO_H

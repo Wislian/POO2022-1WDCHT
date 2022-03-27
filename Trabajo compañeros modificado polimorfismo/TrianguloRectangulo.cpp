@@ -37,7 +37,17 @@ float TrianguloRectangulo::averiguarPerimetro() {
 void TrianguloRectangulo::nombreFigura() {
     cout << "TrianguloRectangulo\n";
 }
-void TrianguloRectangulo::dibujarFigura(int color) {
+void TrianguloRectangulo::dibujarFigura(int color, double tamano) {
+    SetConsoleTextAttribute (GetStdHandle (STD_OUTPUT_HANDLE),color);
+    for(int line = 1 ; line <= tamano ; line ++)
+    {
+        cout << line << ")\t";
+        for(int col = 1 ; col <= line ; col++){
+            cout << "*";
+        }
+        cout << "\n";
+    }
+    SetConsoleTextAttribute (GetStdHandle (STD_OUTPUT_HANDLE),7);
 
 }
 

@@ -16,8 +16,8 @@ protected:
 
 public:
     FiguraGeometrica();
-    virtual float averiguarPerimetro();
-    virtual float averiguarArea();
+    virtual float averiguarPerimetro()=0; /* Método virtual puro o abstracto */
+    virtual float averiguarArea()=0; /* Método virtual puro o abstracto */
     virtual void dibujarFigura();
     virtual void dibujarFigura(int color);
     virtual void nombreFigura();
