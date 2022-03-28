@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/repositorio Lucho/POO-2022-1/Actividad Herencia/Ejercicio-Polimorfismo/cmake-build-debug"
+			"value" : "e:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/POO2022-1WDCHT/repositorio wisilian/POO2022-1WDCHT/Trabajo compañeros modificado polimorfismo/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/repositorio Lucho/POO-2022-1/Actividad Herencia/Ejercicio-Polimorfismo"
+			"value" : "E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/POO2022-1WDCHT/repositorio wisilian/POO2022-1WDCHT/Trabajo compañeros modificado polimorfismo"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -635,7 +635,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Ejercicio_Polimorfismo"
+			"value" : "C:/Program Files (x86)/EJERCICIO_LAURA"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -851,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Ejercicio_Polimorfismo"
+			"value" : "EJERCICIO_LAURA"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1230,7 +1230,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Ejercicio_Polimorfismo_BINARY_DIR",
+			"name" : "EJERCICIO_LAURA_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1239,10 +1239,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/repositorio Lucho/POO-2022-1/Actividad Herencia/Ejercicio-Polimorfismo/cmake-build-debug"
+			"value" : "E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/POO2022-1WDCHT/repositorio wisilian/POO2022-1WDCHT/Trabajo compañeros modificado polimorfismo/cmake-build-debug"
 		},
 		{
-			"name" : "Ejercicio_Polimorfismo_IS_TOP_LEVEL",
+			"name" : "EJERCICIO_LAURA_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1254,7 +1254,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Ejercicio_Polimorfismo_SOURCE_DIR",
+			"name" : "EJERCICIO_LAURA_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/repositorio Lucho/POO-2022-1/Actividad Herencia/Ejercicio-Polimorfismo"
+			"value" : "E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/POO2022-1WDCHT/repositorio wisilian/POO2022-1WDCHT/Trabajo compañeros modificado polimorfismo"
 		}
 	],
 	"kind" : "cache",

@@ -1,8 +1,8 @@
-# Install script for directory: E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/repositorio Lucho/POO-2022-1/Actividad Herencia/Ejercicio-Polimorfismo
+# Install script for directory: E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/POO2022-1WDCHT/repositorio wisilian/POO2022-1WDCHT/Trabajo compañeros modificado polimorfismo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Ejercicio_Polimorfismo")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/EJERCICIO_LAURA")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/repositorio Lucho/POO-2022-1/Actividad Herencia/Ejercicio-Polimorfismo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/POO2022-1WDCHT/repositorio wisilian/POO2022-1WDCHT/Trabajo compañeros modificado polimorfismo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

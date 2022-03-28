@@ -37,12 +37,7 @@ void Rectangulo::dibujarFigura() {
 
 void Rectangulo::dibujarFigura(int color) {
     SetConsoleTextAttribute (GetStdHandle (STD_OUTPUT_HANDLE),color);
-    for (int i = 1; i <= altura; i++) {
-        for (int j = 1; j <= base; j++) {
-            cout << "*";
-        }
-        cout << "\n";
-    }
+    dibujarFigura();
     SetConsoleTextAttribute (GetStdHandle (STD_OUTPUT_HANDLE),7);
 }
 

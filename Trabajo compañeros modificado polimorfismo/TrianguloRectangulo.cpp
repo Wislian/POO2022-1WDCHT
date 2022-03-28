@@ -39,13 +39,7 @@ void TrianguloRectangulo::nombreFigura() {
 }
 void TrianguloRectangulo::dibujarFigura(int color) {
     SetConsoleTextAttribute (GetStdHandle (STD_OUTPUT_HANDLE),color);
-    for(int line = 1 ; line <= lado ; line ++)
-    {
-        for(int col = 1 ; col <= line ; col++){
-            cout << "*";
-        }
-        cout << "\n";
-    }
+    dibujarFigura();
     SetConsoleTextAttribute (GetStdHandle (STD_OUTPUT_HANDLE),7);
 
 }

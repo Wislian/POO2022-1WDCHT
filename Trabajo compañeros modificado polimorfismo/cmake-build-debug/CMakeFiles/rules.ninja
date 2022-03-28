@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: Ejercicio_Polimorfismo
+# Project: EJERCICIO_LAURA
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Ejercicio_Polimorfismo_Debug
+rule CXX_COMPILER__EJERCICIO_LAURA_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = C:\MinGW\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule CXX_COMPILER__Ejercicio_Polimorfismo_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Ejercicio_Polimorfismo_Debug
+rule CXX_EXECUTABLE_LINKER__EJERCICIO_LAURA_Debug
   command = cmd.exe /C "$PRE_LINK && C:\MinGW\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "D:\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"E:\UNIVERSIDAD\Tercer semestre\Progr.Orientada a Objetos\repositorio Lucho\POO-2022-1\Actividad Herencia\Ejercicio-Polimorfismo" -B"E:\UNIVERSIDAD\Tercer semestre\Progr.Orientada a Objetos\repositorio Lucho\POO-2022-1\Actividad Herencia\Ejercicio-Polimorfismo\cmake-build-debug"
+  command = "D:\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"E:\UNIVERSIDAD\Tercer semestre\Progr.Orientada a Objetos\POO2022-1WDCHT\repositorio wisilian\POO2022-1WDCHT\Trabajo compañeros modificado polimorfismo" -B"E:\UNIVERSIDAD\Tercer semestre\Progr.Orientada a Objetos\POO2022-1WDCHT\repositorio wisilian\POO2022-1WDCHT\Trabajo compañeros modificado polimorfismo\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

@@ -1,3 +1,3 @@
-E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/repositorio Lucho/POO-2022-1/Actividad Herencia/Ejercicio-Polimorfismo/cmake-build-debug/CMakeFiles/Ejercicio_Polimorfismo.dir
-E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/repositorio Lucho/POO-2022-1/Actividad Herencia/Ejercicio-Polimorfismo/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/repositorio Lucho/POO-2022-1/Actividad Herencia/Ejercicio-Polimorfismo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/POO2022-1WDCHT/repositorio wisilian/POO2022-1WDCHT/Trabajo compañeros modificado polimorfismo/cmake-build-debug/CMakeFiles/EJERCICIO_LAURA.dir
+E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/POO2022-1WDCHT/repositorio wisilian/POO2022-1WDCHT/Trabajo compañeros modificado polimorfismo/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/UNIVERSIDAD/Tercer semestre/Progr.Orientada a Objetos/POO2022-1WDCHT/repositorio wisilian/POO2022-1WDCHT/Trabajo compañeros modificado polimorfismo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

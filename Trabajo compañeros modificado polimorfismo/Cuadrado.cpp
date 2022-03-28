@@ -35,12 +35,7 @@ void Cuadrado::dibujarFigura() {
 
 void Cuadrado::dibujarFigura(int color) {
     SetConsoleTextAttribute (GetStdHandle (STD_OUTPUT_HANDLE),color);
-    for( int i = 1; i <= lado; i++ ){
-        for(int j = 1; j <= lado; j++ ) {
-            cout << "*";
-        }
-        cout<<"\n";
-    }
+    dibujarFigura();
     SetConsoleTextAttribute (GetStdHandle (STD_OUTPUT_HANDLE),7);
 }
 
